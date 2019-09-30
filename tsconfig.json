@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "lib": ["es7", "dom"],
+    "types": ["node", "figma"],
+    "pretty": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "declaration": true,
+    "removeComments": false,
+    "noUnusedLocals": false,
+    "noImplicitReturns": true,
+    "listEmittedFiles": false,
+    "listFiles": false,
+    "preserveWatchOutput": true,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "outDir": "./dist"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
